@@ -4,17 +4,19 @@
 <head>
   <meta charset="utf-8">
   <meta HTTP-EQUIV="Content-Language" CONTENT="fa">
-  <meta HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=utf-8">
   <meta http-equiv="Permissions-Policy" content="interest-cohort=(), user-id=()">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>تجربه به زبان ساده!</title>
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="bootstrap-5.3.1-dist/css/bootstrap.css">
+  <script href = "js/style.js"></script>
+  <!-- <script href="js/kaghaz.js"></script> -->
 </head>
 
 <body>
   <div class="header">
     <h2>تجربه به زبان ساده!</h2>
+    <div id="scrolltop"></div>
 
     <div class="dropdown">
       <button class="btn btn-primary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -31,41 +33,73 @@
 
   <div class="row">
     <div class="leftcolumn">
+      <!--<h3>Rock Paper Scissors</h3>
+      <div id='pads'>
+        <span id="rock" onclick="playRound('🗿')">🗿</span>
+        &nbsp;
+        <span id="paper" onclick="playRound('📃')">📃</span>
+        &nbsp;
+        <span id="scissors" onclick="playRound('✂')">✂</span>
+      </div>
+      <div class='progress'>
+        <table>
+          <tr class='tabh'>
+            <th>Round</th>
+            <th>You</th>
+            <th>Rival</th>
+            <th>Result</th>
+          </tr>
+        </table>
+      </div>
+      <h5 id="resultText"></h5>
+      <div class="center-button">
+        <button id="restartButton" onclick="restartGame()" disabled>Restart Game</button>
+      </div>
+      <h4 id="endScore"></h4> -->
       <div class="card">
         <h2>TITLE HEADING</h2>
         <h5>Title description, Dec 7, 2017</h5>
         <div class="fakeimg" style="height:200px;">Image</div>
         <p>Some text..</p>
-      </div>
-      <div class="card">
-        <h2>TITLE HEADING</h2>
-        <h5>Title description, Sep 2, 2017</h5>
-        <div class="fakeimg" style="height:200px;">Image</div>
-        <p>Some text..</p>
-      </div>
     </div>
-    <div class="rightcolumn">
-      <div class="card">
-        <h2>About Me</h2>
-        <div class="fakeimg" style="height:100px;">Image</div>
-        <p>Some text about me in culpa qui officia deserunt mollit anim..</p>
-      </div>
-      <div class="card">
-        <h3>Popular Post</h3>
-        <div class="fakeimg">Image</div><br>
-        <div class="fakeimg">Image</div><br>
-        <div class="fakeimg">Image</div>
-      </div>
-      <div class="card">
-        <h3>Follow Me</h3>
-        <p>Some text..</p>
-      </div>
+    <div class="card">
+      <h2>TITLE HEADING</h2>
+      <h5>Title description, Sep 2, 2017</h5>
+      <div class="fakeimg" style="height:200px;">Image</div>
+      <p>Some text..</p>
     </div>
   </div>
+  <div class="rightcolumn">
+    <div class="card">
+      <h2>About Me</h2>
+      <div class="fakeimg" style="height:100px;">Image</div>
+      <p>Some text about me in culpa qui officia deserunt mollit anim..</p>
+    </div>
+    <div class="card">
+      <h3>Popular Post</h3>
+      <div class="fakeimg">Image</div><br>
+      <div class="fakeimg">Image</div><br>
+      <div class="fakeimg">Image</div>
+    </div>
+    <div class="card">
+      <h3>Follow Me</h3>
+      <p>Some text..</p>
+    </div>
+  </div>
+  </div>
+ 
+
+
 
   <div class="footer">
+    <a href="#scrolltop">
+      <div class="scroll-arrow"></div>
+      <div id="scroll-text">^</div>
+    </a>
     <h2>Footer</h2>
   </div>
+
+
 </body>
 
 </html>
