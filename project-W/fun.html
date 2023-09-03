@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="bootstrap-5.3.1-dist/css/bootstrap.css">
+
+        <script href="js/kaghaz.js"></script>
+    </head>
+    <body>
+        <h3>Rock Paper Scissors</h3>
+      <div id='pads'>
+        <span id="rock" onclick="playRound('🗿')">🗿</span>
+        &nbsp;
+        <span id="paper" onclick="playRound('📃')">📃</span>
+        &nbsp;
+        <span id="scissors" onclick="playRound('✂')">✂</span>
+      </div>
+      <div class='progress'>
+        <table>
+          <tr class='tabh'>
+            <th>Round</th>
+            <th>You</th>
+            <th>Rival</th>
+            <th>Result</th>
+          </tr>
+        </table>
+      </div>
+      <h5 id="resultText"></h5>
+      <div class="center-button">
+        <button id="restartButton" onclick="restartGame()" invisible>Restart Game</button>
+      </div>
+      <h4 id="endScore"></h4>
+    </body>
+</html>
